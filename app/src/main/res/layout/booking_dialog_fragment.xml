@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/booking_title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_semibold"
+            android:text="@string/booking"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/booking_set_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/search_background"
+            android:elevation="4dp"
+            android:fontFamily="@font/muli"
+            android:padding="16dp"
+            android:text="@string/date"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/booking_title_text_view" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/booking_set_start_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/search_background"
+            android:elevation="4dp"
+            android:fontFamily="@font/muli"
+            android:padding="16dp"
+            android:text="@string/start_time"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/booking_set_date" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/booking_set_end_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/search_background"
+            android:elevation="4dp"
+            android:fontFamily="@font/muli"
+            android:padding="16dp"
+            android:text="@string/end_time"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/booking_set_start_time" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/booking_set_audience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/search_background"
+            android:elevation="4dp"
+            android:fontFamily="@font/muli"
+            android:padding="16dp"
+            android:text="@string/audience"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/booking_set_end_time" />
+
+        <Button
+            android:id="@+id/save_booking_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/black_button_bg"
+            android:elevation="4dp"
+            android:fontFamily="@font/muli"
+            android:text="@string/save"
+            android:textColor="@android:color/white"
+            app:layout_constraintTop_toBottomOf="@+id/booking_set_audience"
+            tools:layout_editor_absoluteX="24dp" />
+
+        <Button
+            android:id="@+id/cancel_booking_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/black_button_bg"
+            android:elevation="4dp"
+            android:fontFamily="@font/muli"
+            android:text="@string/cancel"
+            android:textColor="@android:color/white"
+            app:layout_constraintTop_toBottomOf="@+id/save_booking_button"
+            tools:layout_editor_absoluteX="24dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

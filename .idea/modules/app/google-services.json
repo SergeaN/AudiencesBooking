@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "96250947054",
+    "firebase_url": "https://audiencesbooking.firebaseio.com",
+    "project_id": "audiencesbooking",
+    "storage_bucket": "audiencesbooking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96250947054:android:72a2e5a92a7f1b9941daff",
+        "android_client_info": {
+          "package_name": "com.etu.audiencesbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96250947054-n84e9hv7ajkqtj31rfs5o7u3nfqf543r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.etu.audiencesbooking",
+            "certificate_hash": "775f25bff738e3440fc70a37ddb7af4a682a2156"
+          }
+        },
+        {
+          "client_id": "96250947054-025nvp1pgusnnivnsiuhe1q8rj0bo2uf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVRKy1YMzUYlzOKfdQOMAl71cBZO2sMDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96250947054-025nvp1pgusnnivnsiuhe1q8rj0bo2uf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

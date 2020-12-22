@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="id_activityScreenTitles">
+
+        <item/>
+        <item>Booking</item>
+        <item>My Profile</item>
+        <item>Overview</item>
+        <item>Audiences</item>
+        <item>Teachers</item>
+        <item>Schedule</item>
+        <item>About us</item>
+        <item/>
+        <item>Log out</item>
+    </string-array>
+
+    <array name="id_activityScreenIcons">
+        <item>@drawable/close_icon</item>
+        <item>@drawable/booking_icon</item>
+        <item>@drawable/profile_icon</item>
+        <item>@drawable/overview_icon</item>
+        <item>@drawable/audiences_icon</item>
+        <item>@drawable/teachers_icon</item>
+        <item>@drawable/schedule_icon</item>
+        <item>@drawable/about_icon</item>
+        <item>0</item>
+        <item>@drawable/logout_icon</item>
+    </array>
+
+</resources>

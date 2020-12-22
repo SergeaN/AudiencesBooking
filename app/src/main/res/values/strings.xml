@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">BookingAudiences</string>
+    <string name="login">login</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forget_password">FORGET PASSWORD</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="create_account">Create Account</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_up_to_university">Sign Up to university</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="department">Department</string>
+    <string name="next">Next</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="delete">Delete</string>
+    <string name="full_name">Full Name</string>
+    <string name="search">Search</string>
+    <string name="list_of_teachers">List of teachers</string>
+    <string name="todo">TODO</string>
+    <string name="save">Save</string>
+    <string name="undo">UNDO</string>
+    <string name="removed">removed…</string>
+    <string name="connect_to_the_internet">Please, connect to the internet to proceed further</string>
+    <string name="connect">Connect</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_user_exist">No such user exist!</string>
+    <string name="password_doesnt_match">Password doesn\'t match!</string>
+    <string name="register">Register</string>
+    <string name="new_audience">New audience</string>
+    <string name="number">Number</string>
+    <string name="capacity">Capacity</string>
+    <string name="booking">Booking</string>
+    <string name="myprofile">My Profile</string>
+    <string name="overview">Overview</string>
+    <string name="audiences">Audiences</string>
+    <string name="teachers">Teachers</string>
+    <string name="schedule">Schedule</string>
+    <string name="aboutus">About Us</string>
+    <string name="descripiton">
+        The application was created as part of the course work
+        on the discipline "Object Oriented Programming" by 3rd year students
+        of the Saint Petersburg Electrotechnical University "LETI"
+        of the faculty of Computer Science and Technology
+        of the Department of Computer Aided Design
+        Anukhin Sergei and Nazyrov Emil
+    </string>
+    <string name="saturday">Saturday</string>
+    <string name="day_of_week">Day Of Week</string>
+    <string name="create">Create</string>
+    <string name="teacher">Teacher</string>
+    <string name="audience_number">Audience Number</string>
+    <string name="audience">Audience</string>
+    <string name="end_time">End Time</string>
+    <string name="start_time">Start Time</string>
+    <string name="not_all_field_are_filled">Not all fields are filled!</string>
+    <string name="incorrect_email">Incorrect email!</string>
+    <string name="creating_a_permanent_schedule">Creating a permanent schedule</string>
+    <string name="start_time_is_greater">Start time is greater than end time!</string>
+    <string name="audience_busy">The audience is already busy at this time!</string>
+    <string name="teacher_busy">The teacher is already busy at this time!</string>
+    <string name="incorrect_number">Incorrect number of audience!</string>
+    <string name="incorrect_capacity">Incorrect number of capacity!</string>
+    <string name="edit_audience">Edit audience</string>
+    <string name="edit_teacher">Edit teacher</string>
+    <string name="pick_time">Pick time</string>
+    <string name="pick_date">Pick date</string>
+    <string name="date">Date</string>
+    <string name="not_found">NOT FOUND</string>
+    <string name="involved_teacher">Already involved teacher!
+        Delete schedule or booking first!</string>
+    <string name="involved_audience">Already involved audience!
+        Delete schedule or booking first!</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="reset">Reset</string>
+    <string name="choose_audinece">Choose Audience</string>
+    <string name="forget_password_toast">How did it happen? Just remember!!</string>
+    <string name="registered_email">Email already registered!</string>
+</resources>
