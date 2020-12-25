@@ -36,12 +36,12 @@ public class AboutFragment extends Fragment {
                 .addEmail("saanukhin@stud.etu.ru")
                 .addWebsite("https://etu.ru/")
                 .addFacebook("the.medy")
-                .addTwitter("sergeanpro")
+                .addTwitter("JoeBiden")
                 .addYoutube("UCnKhcV7frITmrYbIU5MrMZw")
                 .addYoutube("spbetu", "University")
                 .addGitHub("SergeaN", "Sergei")
                 .addGitHub("Emiliano43", "Emil")
-                .addInstagram("serggean")
+                .addInstagram("billeeilish")
                 .create();
     }
 }
