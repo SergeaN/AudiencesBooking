@@ -341,7 +341,7 @@ public class BookingFragment extends Fragment {
                 .findByTeacher(mTeacherId);
 
         for (Booking booking : bookingList) {
-            if(mBooking.getUUID().equals(booking.getUUID())){
+            if(mBooking != null && mBooking.getUUID().equals(booking.getUUID())){
                 break;
             }
             if (mStartTime.equals(booking.getStartDate())

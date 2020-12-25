@@ -305,7 +305,7 @@ public class ScheduleFragment extends Fragment {
                 .findByTeacher(mTeacher.getUUID());
 
         for (Schedule schedule : scheduleList) {
-            if (mSchedule.getUUID().equals(schedule.getUUID())) {
+            if (mSchedule != null && mSchedule.getUUID().equals(schedule.getUUID())) {
                 break;
             }
             if (mDayOfWeek.equals(schedule.getDayOfWeek())) {
